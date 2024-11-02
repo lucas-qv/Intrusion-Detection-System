@@ -45,7 +45,7 @@ Este IDS captura pacotes de rede e conta a quantidade de pacotes SYN recebidos p
 3. **Simulação de Ataque**:
    - Em outra máquina, simule um ataque SYN flood usando o comando:
      ```bash
-     sudo nmap -Pn --max-rate 1000 -p- 192.168.X.X
+     sudo nmap 192.168.X.X
      ```
    - Substitua `192.168.X.X` pelo IP do servidor monitorado.
 
